@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #3B0270;
+}
+
+[data-theme="dark"] h2 {
+    color: #ffffff;
+    /* dark mode হ‌লে h2 white হবে */
+}
+
+
+[data-theme="dark"] p {
+    color: white;
+    /* dark mode হ‌লে h2 white হবে */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #dcdce7 !important;
+}
+
+/* .select:focus,
+.select:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+} */
